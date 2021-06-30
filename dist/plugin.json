@@ -13,15 +13,13 @@
       "small": "img/plotly.svg",
       "large": "img/plotly.svg"
     },
-    "links": [
-      {"name": "Website", "url": "https://github.com/ae3e/ae3e-plotly-panel"}
-    ],
+    "links": [{ "name": "Website", "url": "https://github.com/ae3e/ae3e-plotly-panel" }],
     "screenshots": [
-      {"name": "Editor", "path": "img/editor.png"},
-      {"name": "Panel", "path": "img/panel.png"}
+      { "name": "Editor", "path": "img/editor.png" },
+      { "name": "Panel", "path": "img/panel.png" }
     ],
     "version": "0.4.0",
-    "updated": "2021-04-30"
+    "updated": "2021-06-29"
   },
 
   "dependencies": {

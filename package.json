@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "Grafana Plotly Panel",
   "scripts": {
-    "build": "grafana-toolkit plugin:build",
+    "build": "DISABLE_ESLINT_PLUGIN=true grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev --watch",
     "sign": "npx @grafana/toolkit plugin:sign",
@@ -15,15 +15,17 @@
     "@babel/preset-env": "7.5.5",
     "@grafana/data": "7.3.5",
     "@grafana/runtime": "7.3.5",
-    "@grafana/toolkit": "7.3.5",
-    "@grafana/ui": "7.3.5"
+    "@grafana/toolkit": "^7.3.5",
+    "@grafana/ui": "7.3.5",
+    "eslint-config-prettier": "^8.3.0"
   },
   "dependencies": {
     "@emotion/css": "^10.0.27",
     "deepmerge": "^4.2.2",
     "plotly.js": "1.58.4",
     "react-plotly.js": "2.5.1",
-    "react-virtualized-auto-sizer": "^1.0.5"
+    "react-virtualized-auto-sizer": "^1.0.5",
+    "yarn": "^1.22.10"
   },
   "resolutions": {
     "@babel/preset-env": "7.5.5"
